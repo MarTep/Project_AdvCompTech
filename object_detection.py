@@ -3,6 +3,9 @@ import numpy as np
 
 
 def detect_objects(img):
+
+    #img = preprocess_image(in_img)
+    #img = cv2.cvtColor(in_img, cv2.COLOR_BGR2GRAY)
     # Load Network
     net = cv2.dnn.readNet("dnn_model/yolov4.weights", "dnn_model/yolov4.cfg")
     model = cv2.dnn_DetectionModel(net)
@@ -52,6 +55,11 @@ def detect_objects(img):
 
     cv2.putText(img, "Vehicles: " + str(vehicle_count),
                 (20, 50), 0, 2, (100, 200, 0), 3)
+    #r_img = preprocess_image(img)  
     return img
 
-    
+def preprocess_image(img):
+    #gray_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    blur_img = cv2.GaussianBlur(img,(5,5),0)
+    dilated_img = cv2.dilate(blur_img,np.ones((3,3)))
+    return dilated_img
