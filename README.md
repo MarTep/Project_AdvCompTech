@@ -13,7 +13,7 @@ Tα Αρχεία (Δομή Εφαρμογής):
 ![image](https://user-images.githubusercontent.com/34692617/177355862-508f93b4-bd5e-4108-b4a4-935e61d7b469.png)
 
 
-Το dnn_model το κατεβάζετε από το [Drive Link](https://drive.google.com/drive/folders/1UkxNQ6oWzFJsUao2ceIiayXadm5s9v_1?usp=sharing![image)
+Το **dnn_model** το κατεβάζετε από το [Drive Link](https://drive.google.com/drive/folders/1UkxNQ6oWzFJsUao2ceIiayXadm5s9v_1?usp=sharing![image)
 
 
 # Windows Installation
