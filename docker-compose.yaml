@@ -1,0 +1,17 @@
+version: '3.6'
+networks:
+  demo_net:
+services:
+  memo_server:
+    container_name: object_detection_102
+    build:
+      context: .
+    ports:
+      - "20000:10000"
+    # depends_on:
+    #   - mongodb
+    #   - mysql
+    volumes:
+    #Mount . from host to docker. This allows to have changes show uu immediatelly
+      - .:/new_work_dir
+    command: uvicorn course:app --host 0.0.0.0 --port 10000 --reload
