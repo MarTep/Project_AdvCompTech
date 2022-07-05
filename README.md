@@ -23,6 +23,18 @@ pip install opencv-python
 ```
 pip install opencv-python-headless
 ```
+
+Τέλος, από τη γραμμή εντολών πηγαίνουμε στο φάκελο του project και εκτελούμε:
+
+```
+uvicorn projectapp:app --reload
+```
+Παράδειγμα:
+![Cmd](https://user-images.githubusercontent.com/34692617/177334613-34574074-29a9-45ba-a405-9fc1bc467841.jpg)
+
+Τέλος, η εφαρμογή τρέχει στο  http://127.0.0.1:8000.
+
+
 # Ubuntu Installation 
 
 # Run with Ubuntu Container
