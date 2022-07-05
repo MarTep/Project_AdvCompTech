@@ -7,7 +7,7 @@ services:
     build:
       context: .
     ports:
-      - "20000:10000"
+      - "10000:10000"
     volumes:
     #Mount . from host to docker. This allows to have changes show uu immediatelly
       - .:/new_work_dir
