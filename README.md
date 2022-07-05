@@ -33,6 +33,25 @@ return dictionary
 
 ### **Συναρτήσεις Request**
 
+GET /getLocations
+
+```
+async def getLocations()
+return cameras_list
+```
+Έξοδος: Μία λίστα με όλα τα ονόματα από τις τοποθεσίες με τις ζωντανές κάμερες 
+
+
+POST /detectLocalImage
+```
+async def localImage(img_name)
+return FileResponse("detected_img.jpg")
+```
+Είσoδος: Το όνομα της εικόνας που έχουμε αποθηκευμένη στον υπολογιστή μας. ΠΡΕΠΕΙ να βρίσκεται στο φάκελο local_images.
+
+Έξοδος: Αποθηκεύει τοπικά(στο σερβερ) την αρχική φωτογραφία και τη τελική φωτογραφία με τα αντικείμενα που εντόπισε. Επιστρέφει και προβάλει μέσω του API τη τελική φωτογραφία
+
+
 POST /detectLiveImage
 ```
 async def liveImage(img_name)
