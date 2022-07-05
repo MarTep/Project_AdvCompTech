@@ -25,7 +25,8 @@ pip install opencv-python
 ```
 pip install opencv-python-headless
 ```
-
+Ακόμα, κατεβάζουμε από
+https://drive.google.com/drive/folders/1UkxNQ6oWzFJsUao2ceIiayXadm5s9v_1?usp=sharing
 Τέλος, από τη γραμμή εντολών πηγαίνουμε στο φάκελο του project και εκτελούμε:
 
 ```
