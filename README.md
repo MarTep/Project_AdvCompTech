@@ -5,6 +5,7 @@ Project Name: Object Detection
 
 # Windows Installation
 
+Θα χρειαστεί να έχουμε εγκατεστημένη ![Python3](https://www.python.org/downloads/) στον υπολογιστή μας και να βρίσκεται στο path του συστήματος.
 # Ubuntu Installation 
 
 # Run with Ubuntu Container
