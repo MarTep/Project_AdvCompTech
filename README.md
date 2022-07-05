@@ -5,7 +5,9 @@ Project Name: Object Detection
 
 # Windows Installation
 
-Θα χρειαστεί να έχουμε εγκατεστημένη [Python3](https://www.python.org/downloads/) στον υπολογιστή μας και να βρίσκεται στο path του συστήματος.
+Θα χρειαστεί να έχουμε εγκατεστημένη [Python3](https://www.python.org/downloads/) στον υπολογιστή μας και να βρίσκεται στο path του συστήματος ([Μεταβλητές Περιβάλλοντος](https://datatofish.com/add-python-to-windows-path/).
+Στη συνέχεια, ανοίγουμε τη γραμμή εντολών (cmd.exe), και εκτελούμε τις εντολές:
+
 # Ubuntu Installation 
 
 # Run with Ubuntu Container
