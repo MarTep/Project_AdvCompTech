@@ -134,6 +134,12 @@ uvicorn projectapp:app --reload
 ```
 *Σημείωση*: Ο Container δημιουργεί κλειδωμένα αρχεία και δεν γίνονται overwrite. Πρέπει να διαγραφούν αν έτρεξε πρώτα ο container.
 
+Για τα unit test:
+
+```
+python3 testapp.py
+```
+
 # Run with Ubuntu Container
 
 Σε Ubuntu με εγκαταστημένο docker, πάμε στο path της εφαρμογής(αφού έχουμε κατεβάσει και το dnn_model και το φάκελο local_images):
