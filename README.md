@@ -8,9 +8,10 @@ Project Name: Object Detection
 
 ![image](https://user-images.githubusercontent.com/34692617/177354813-f51af2f9-fced-4930-8b4d-6a109cc6cc6d.png)
 
-Tα Αρχεία:
+Tα Αρχεία (Δομή Εφαρμογής):
 
-![image](https://user-images.githubusercontent.com/34692617/177355153-1c1b52df-3050-4cbf-8ab8-cbe62181be2e.png)
+![image](https://user-images.githubusercontent.com/34692617/177355862-508f93b4-bd5e-4108-b4a4-935e61d7b469.png)
+
 
 Το dnn_model το κατεβάζετε από το [Drive Link](https://drive.google.com/drive/folders/1UkxNQ6oWzFJsUao2ceIiayXadm5s9v_1?usp=sharing![image)
 
