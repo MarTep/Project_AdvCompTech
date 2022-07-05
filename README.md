@@ -100,7 +100,7 @@ uvicorn projectapp:app --reload
 
 Τέλος, η εφαρμογή τρέχει στο  http://127.0.0.1:8000.
 
-Για τα uni
+
 # Ubuntu Installation 
 
 Στο Terminal, εκτελούμε τις εντολές:
@@ -132,6 +132,7 @@ sudo apt-get install python3-opencv
 ```
 uvicorn projectapp:app --reload
 ```
+*Σημείωση*: Ο Container δημιουργεί κλειδωμένα αρχεία και δεν γίνονται overwrite. Πρέπει να διαγραφούν αν έτρεξε πρώτα ο container.
 
 # Run with Ubuntu Container
 
