@@ -53,8 +53,7 @@ pip install opencv-python
 ```
 pip install opencv-python-headless
 ```
-Ακόμα, κατεβάζουμε από
-https://drive.google.com/drive/folders/1UkxNQ6oWzFJsUao2ceIiayXadm5s9v_1?usp=sharing
+Ακόμα, κατεβάζουμε το **dnn_model** από το [Drive Link](https://drive.google.com/drive/folders/1UkxNQ6oWzFJsUao2ceIiayXadm5s9v_1?usp=sharing![image)
 
 Τέλος, από τη γραμμή εντολών πηγαίνουμε στο φάκελο του project και εκτελούμε:
 
@@ -92,6 +91,8 @@ pip install opencv-contrib-python
 ```
 sudo apt-get install python3-opencv
 ```
+Ακόμα, κατεβάζουμε το **dnn_model** από το [Drive Link](https://drive.google.com/drive/folders/1UkxNQ6oWzFJsUao2ceIiayXadm5s9v_1?usp=sharing![image)
+
 # Run with Ubuntu Container
 
 Σε Ubuntu με εγκαταστημένο docker, πάμε στο path της εφαρμογής:
