@@ -1,2 +1,6 @@
 # Project_AdvCompTech
-Object Detection
+Project Name: Object Detection
+
+# Windows Installation
+
+# Linux Installation 
