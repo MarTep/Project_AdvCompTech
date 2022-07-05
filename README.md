@@ -9,6 +9,8 @@ Project Name: Object Detection
 
 Στη συνέχεια, ανοίγουμε τη γραμμή εντολών (cmd.exe), και εκτελούμε διαδοχικά  τις εντολές:
 ```
+pip install --upgrade pip
+
 pip install "fastapi[all]"
 
 pip install requests
@@ -30,6 +32,7 @@ pip install opencv-python-headless
 uvicorn projectapp:app --reload
 ```
 Παράδειγμα:
+
 ![Cmd](https://user-images.githubusercontent.com/34692617/177334613-34574074-29a9-45ba-a405-9fc1bc467841.jpg)
 
 Τέλος, η εφαρμογή τρέχει στο  http://127.0.0.1:8000.
@@ -37,4 +40,26 @@ uvicorn projectapp:app --reload
 
 # Ubuntu Installation 
 
+Στο Terminal, εκτελούμε τις εντολές:
+```
+pip install --upgrade pip
+
+pip install "fastapi[all]"
+
+pip install requests
+
+pip install opencv-python-headless
+```
+Αν υπάρξει πρόβλημα με την opencv δοκιμάστε:
+```
+pip install opencv-python
+```
+ή
+```
+pip install opencv-contrib-python
+```
+ή κατεβάστε ολόκληρη τη [βιβλιοθήκη](https://docs.opencv.org/4.x/d2/de6/tutorial_py_setup_in_ubuntu.html)
+```
+sudo apt-get install python3-opencv
+```
 # Run with Ubuntu Container
