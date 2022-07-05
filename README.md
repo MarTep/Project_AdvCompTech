@@ -3,4 +3,6 @@ Project Name: Object Detection
 
 # Windows Installation
 
-# Linux Installation 
+# Ubuntu Installation 
+
+# Run with Ubuntu Container
