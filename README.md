@@ -101,7 +101,7 @@ uvicorn projectapp:app --reload
 
 # Run with Ubuntu Container
 
-Σε Ubuntu με εγκαταστημένο docker, πάμε στο path της εφαρμογής:
+Σε Ubuntu με εγκαταστημένο docker, πάμε στο path της εφαρμογής(αφού έχουμε κατεβάσει και το dnn_model και το φάκελο local_images):
 
 ```
 sudo docker compose up
