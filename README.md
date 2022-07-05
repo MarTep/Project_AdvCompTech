@@ -93,3 +93,10 @@ pip install opencv-contrib-python
 sudo apt-get install python3-opencv
 ```
 # Run with Ubuntu Container
+
+Σε Ubuntu με εγκαταστημένο docker, πάμε στο path της εφαρμογής:
+
+```
+sudo docker compose up
+```
+Note: Τα unit tests δεν βρίσκονται στο container
