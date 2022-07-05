@@ -12,9 +12,7 @@ Tα Αρχεία:
 
 ![image](https://user-images.githubusercontent.com/34692617/177355153-1c1b52df-3050-4cbf-8ab8-cbe62181be2e.png)
 
-Το dnn_model το κατεβάζετε από το [Drive Link] (https://drive.google.com/drive/folders/1UkxNQ6oWzFJsUao2ceIiayXadm5s9v_1?usp=sharing![image)
-
- https://user-images.githubusercontent.com/34692617/177355272-c55309ed-8e3b-4bd6-9323-ec89015c985f.png
+Το dnn_model το κατεβάζετε από το [Drive Link](https://drive.google.com/drive/folders/1UkxNQ6oWzFJsUao2ceIiayXadm5s9v_1?usp=sharing![image)
 
 
 # Windows Installation
