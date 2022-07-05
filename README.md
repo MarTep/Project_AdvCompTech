@@ -5,7 +5,16 @@ Project Name: Object Detection
 Οι κάμερες κυκλοφορίας που χρησιμοποιούνται είναι από ένα private API του Υπουργείου Μεταφορών της Νέας Νότιας Ουαλίας στην Αυστραλία.
 
 Η εφαρμογή: 
+
 ![image](https://user-images.githubusercontent.com/34692617/177354813-f51af2f9-fced-4930-8b4d-6a109cc6cc6d.png)
+
+Tα Αρχεία:
+
+![image](https://user-images.githubusercontent.com/34692617/177355153-1c1b52df-3050-4cbf-8ab8-cbe62181be2e.png)
+
+Το dnn_model το κατεβάζετε από το [Drive Link] (https://drive.google.com/drive/folders/1UkxNQ6oWzFJsUao2ceIiayXadm5s9v_1?usp=sharing![image)
+
+ https://user-images.githubusercontent.com/34692617/177355272-c55309ed-8e3b-4bd6-9323-ec89015c985f.png
 
 
 # Windows Installation
@@ -32,6 +41,7 @@ pip install opencv-python-headless
 ```
 Ακόμα, κατεβάζουμε από
 https://drive.google.com/drive/folders/1UkxNQ6oWzFJsUao2ceIiayXadm5s9v_1?usp=sharing
+
 Τέλος, από τη γραμμή εντολών πηγαίνουμε στο φάκελο του project και εκτελούμε:
 
 ```
@@ -43,7 +53,7 @@ uvicorn projectapp:app --reload
 
 Τέλος, η εφαρμογή τρέχει στο  http://127.0.0.1:8000.
 
-
+Για τα uni
 # Ubuntu Installation 
 
 Στο Terminal, εκτελούμε τις εντολές:
