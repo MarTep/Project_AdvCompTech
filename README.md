@@ -93,6 +93,12 @@ sudo apt-get install python3-opencv
 ```
 Ακόμα, κατεβάζουμε το **dnn_model** από το [Drive Link](https://drive.google.com/drive/folders/1UkxNQ6oWzFJsUao2ceIiayXadm5s9v_1?usp=sharing![image)
 
+Τέλος, από το Terminal πηγαίνουμε στο φάκελο του project και εκτελούμε:
+
+```
+uvicorn projectapp:app --reload
+```
+
 # Run with Ubuntu Container
 
 Σε Ubuntu με εγκαταστημένο docker, πάμε στο path της εφαρμογής:
