@@ -14,7 +14,10 @@ Tα Αρχεία (Δομή Εφαρμογής):
 
 
 Το **dnn_model** το κατεβάζετε από το [Drive Link](https://drive.google.com/drive/folders/1UkxNQ6oWzFJsUao2ceIiayXadm5s9v_1?usp=sharing![image)
-Διαγράψτε το αρχείο που βρίσκεται στο φάκελο και προσθέστε 
+
+Διαγράψτε το κενό αρχείο(delete_this) που βρίσκεται στο φάκελο και προσθέστε τα yolov4.cfg, yolov4.weights
+
+
 ### **Συναρτήσεις Εφαρμογής**
 
 ```
