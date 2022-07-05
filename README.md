@@ -15,7 +15,20 @@ Tα Αρχεία (Δομή Εφαρμογής):
 
 Το **dnn_model** το κατεβάζετε από το [Drive Link](https://drive.google.com/drive/folders/1UkxNQ6oWzFJsUao2ceIiayXadm5s9v_1?usp=sharing![image)
 
+### **Συναρτήσεις Εφαρμογής**
 
+```
+def detectObjects(img):
+return img
+```
+Είσοδος: εικόνα
+Έξοδος: εικόνα με σχεδιασμένα τετράγωνα στα αντικείμενα που εντοπίστηκαν
+
+```
+def getTrafficCameraResponse():
+return dictionary
+```
+Έξοδος: Dictionary με key, τις τοποθεσίες με string που βρίσκονται οι ζωντανές κάμερες κυκλοφορίας και value το link με τη φωτογραφία εκείνη τη στιγμή
 # Windows Installation
 
 Θα χρειαστεί να έχουμε εγκατεστημένη [Python3.6 και μετά](https://www.python.org/downloads/) στον υπολογιστή μας και να βρίσκεται στο path του συστήματος ([Μεταβλητές Περιβάλλοντος](https://datatofish.com/add-python-to-windows-path/).
